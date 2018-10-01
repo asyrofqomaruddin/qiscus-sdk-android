@@ -83,7 +83,7 @@ dependencies {
     api eventBusLib
     api rxUrlExtractorLib
     api qiscusManggil
-
+    implementation 'com.github.asyrofqomaruddin:qiscus-sdk-android:1.0.0'
     api project(':chat-core')
 
 }
