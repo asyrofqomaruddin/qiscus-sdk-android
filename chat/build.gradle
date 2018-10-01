@@ -15,8 +15,10 @@
  */
 
 apply plugin: 'com.android.library'
+
 apply plugin: 'me.tatarka.retrolambda'
 apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.asyrofqomaruddin'
 apply from: '../dependencies.gradle'
 apply from: 'lib-version.gradle'
 apply from: rootProject.file('gradle/quality.gradle')
