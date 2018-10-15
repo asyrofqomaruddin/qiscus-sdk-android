@@ -261,6 +261,7 @@ public final class QiscusPushNotificationUtil {
         if (BuildVersionUtil.isOreoOrHigher()) {
             NotificationChannel notificationChannel =
                     new NotificationChannel(notificationChannelId, "Chat", NotificationManager.IMPORTANCE_HIGH);
+            notificationChannel.setShowBadge(true);
             NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
             if (notificationManager != null) {
                 notificationManager.createNotificationChannel(notificationChannel);
